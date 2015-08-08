@@ -5785,6 +5785,11 @@ public final class Settings {
         public static final String OMNI_LOCKSCREEN_SMALL_CLOCK = "lockscreen_small_clock";
 
         /**
+         * @hide
+         */
+        public static final String OMNI_THREE_FINGER_GESTURE = "three_finger_gesture";
+
+        /**
          * SettingsBackupAgent will combine its list with this so we dont need
          * to add new things into SettingsProvider SystemSettings
          * @hide
@@ -5816,6 +5821,7 @@ public final class Settings {
             OMNI_QS_LAYOUT_COLUMNS,
             OMNI_QS_TILE_VERTICAL_LAYOUT,
             OMNI_LOCKSCREEN_SMALL_CLOCK,
+            OMNI_THREE_FINGER_GESTURE,
         };
 
         /**
@@ -5857,6 +5863,7 @@ public final class Settings {
             OMNI_SETTINGS_VALIDATORS.put(OMNI_QS_LAYOUT_COLUMNS, 1);
             OMNI_SETTINGS_VALIDATORS.put(OMNI_QS_TILE_VERTICAL_LAYOUT, 0);
             OMNI_SETTINGS_VALIDATORS.put(OMNI_LOCKSCREEN_SMALL_CLOCK, 0);
+            OMNI_SETTINGS_VALIDATORS.put(OMNI_THREE_FINGER_GESTURE, 0);
         }
     }
 
